@@ -57,7 +57,7 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #eece1a;
+      border: none;
       background-position: center;
       background-size: cover; }
   .menu .nav-item {
@@ -202,10 +202,11 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
+    padding: 0.5rem 1.5rem;
     margin-bottom: 3rem;
+    box-shadow: 0 14px 10px;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;

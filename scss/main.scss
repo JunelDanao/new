@@ -140,10 +140,11 @@ main {
   margin-top: 1rem;
 
   div {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
+    padding: 0.5rem 1.5rem;
     margin-bottom: 3rem;
+    box-shadow: 0 14px 10px;
     @include easeOut;
 
     &:hover {
